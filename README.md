@@ -10,4 +10,4 @@ Add, subtract, multiply and divide two numbers; display the result.
 
 \#\# How to run it
 
-Run: python3 calculator.py
+Run: /run.sh
