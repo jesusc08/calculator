@@ -11,3 +11,7 @@ Add, subtract, multiply and divide two numbers; display the result.
 \#\# How to run it
 
 Run: /run.sh
+
+\#\# How to test
+
+Run: test.sh, this should output 5 completed tests and and exit status
