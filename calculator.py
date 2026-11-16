@@ -11,6 +11,12 @@ def multiply(a, b):
 def divide(a, b):
 	return a / b
 
+def CircleArea(r):
+	if r >= 0:
+		return 3.14 * r * r
+	else:
+		return "Error"
+
 def main():
 	while True:
 		a = float(input("First number: "))
@@ -25,13 +31,7 @@ def main():
 		elif op == "/":
 			print("Result:", divide(a, b))
 		else:
-			print("Unknown operator:", op)	
+			print("Unknown operator:", op)
+			
 if __name__ == "__main__":
 	main()
-def CircleArea(r):
-	if r >= 0:
-		return 3.14 * r * r
-	else:
-		return "Error"
-
-
